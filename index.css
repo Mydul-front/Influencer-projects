@@ -69,10 +69,13 @@
      justify-content: center;
      align-items: center;
      margin:30px 50px;
-     filter: grayscale(gray);
+     /* filter: grayscale(gray); */
      border-top: 1px solid rgba(0, 0, 0, 0.253);
      border-bottom: 1px solid rgba(0, 0, 0, 0.301);
      padding:20px;
+}
+.container-img img{
+     filter: grayscale(gray);
 }
 .haeder-content h1{
      font-size: 2rem;
@@ -94,6 +97,9 @@
      background-color:rgba(0, 128, 0, 0.445);
      width:80%;
 
+}
+.box img{
+     width:100%;
 }
 .box p{
      width:60%;
@@ -121,4 +127,35 @@
      background-color: rgba(137, 43, 226, 0.678);
      text-align: center;
      height:150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px){
+     .box-content{
+          display:block;
+     }
+     .container{
+          display:block;
+          
+     }
+     .links{
+          flex-direction: column-reverse;
+     }
+     .hero{
+          display:block;
+          padding:0;
+     }
 }
