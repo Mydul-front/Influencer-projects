@@ -75,7 +75,7 @@
      padding:20px;
 }
 .container-img img{
-     filter: grayscale(gray);
+     filter: grayscale(1);
 }
 .haeder-content h1{
      font-size: 2rem;
@@ -157,5 +157,21 @@
      .hero{
           display:block;
           padding:0;
+          width:auto;
+     }
+     .container-img{
+          flex-direction: column;
+          flex-wrap: wrap;
+     }
+     .hero5{
+          display:block;
+          margin:20px auto;
+     }
+     .hero2{
+          flex-wrap: wrap;
+     }
+     .img-container{
+          margin:0;
+          width:100%;
      }
 }
